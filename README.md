@@ -108,7 +108,3 @@ The evaluation uses the [Valentine](https://github.com/delftdata/valentine)
 benchmark and a testbed built on the [TPC-H](https://www.tpc.org/tpch/) schema.
 These are not redistributed here; download them from their original sources and
 place them under `data/` (git-ignored).
-
-## License
-
-See [LICENSE](LICENSE).
