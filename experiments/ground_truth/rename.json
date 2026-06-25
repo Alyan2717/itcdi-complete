@@ -1,0 +1,23 @@
+{
+  "scenario": "column_rename",
+  "description": "Source renames 'commitdate' to 'commit_date' (same type).",
+  "expected_drift": {
+    "drift_type": "ColumnRename",
+    "severity": "MEDIUM",
+    "response": "re-point + reuse",
+    "affected_columns": [
+      "commitdate",
+      "commit_date"
+    ]
+  },
+  "expected_mappings": [
+    {
+      "source_columns": [
+        "commit_date"
+      ],
+      "target_column": "commitdate",
+      "mapping_type": "OneToOne",
+      "expression": "commit_date"
+    }
+  ]
+}

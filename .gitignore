@@ -1,0 +1,50 @@
+# ============================================================
+#  ITCDI .gitignore
+# ============================================================
+
+# ---- Secrets / config (NEVER commit real ones) ----
+.env
+*.env
+!.env.example
+secrets.json
+# Commit appsettings.example.json with placeholders, ignore the real one:
+**/appsettings.json
+**/appsettings.Development.json
+**/appsettings.Local.json
+
+# ---- Python (matching-engine / schema_intelligence) ----
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- C# / .NET (orchestrator) ----
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# ---- Models / embeddings (regenerable, large — link instead) ----
+models/
+*.gguf
+*.bin
+*.safetensors
+
+# ---- Bulk generated data (regenerate with generate_tpch_scale.py) ----
+experiments/tpch_data/lineitem_100k.csv
+experiments/tpch_data/lineitem_1m.csv
+data/
+*.tsv
+
+# ---- DB / logs / OS noise ----
+*.mdf
+*.ldf
+*.log
+.DS_Store
+Thumbs.db

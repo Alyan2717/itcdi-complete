@@ -1,0 +1,12 @@
+{
+  "scenario": "type_widen",
+  "description": "Source widens 'linenumber' from int to bigint (value-safe).",
+  "expected_drift": {
+    "drift_type": "TypeWidening",
+    "severity": "LOW",
+    "response": "reuse",
+    "affected_columns": [
+      "linenumber"
+    ]
+  }
+}

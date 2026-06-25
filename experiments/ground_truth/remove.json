@@ -1,0 +1,12 @@
+{
+  "scenario": "column_remove",
+  "description": "Source removes the 'tax' column present in the target baseline.",
+  "expected_drift": {
+    "drift_type": "ColumnRemove",
+    "severity": "HIGH",
+    "response": "re-match",
+    "affected_columns": [
+      "tax"
+    ]
+  }
+}

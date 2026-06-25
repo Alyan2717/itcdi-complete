@@ -1,0 +1,142 @@
+{
+  "scenario": "one_to_one",
+  "description": "Unchanged source columns map one-to-one to the same target columns.",
+  "expected_mappings": [
+    {
+      "source_columns": [
+        "orderkey"
+      ],
+      "target_column": "orderkey",
+      "mapping_type": "OneToOne",
+      "expression": "orderkey"
+    },
+    {
+      "source_columns": [
+        "partkey"
+      ],
+      "target_column": "partkey",
+      "mapping_type": "OneToOne",
+      "expression": "partkey"
+    },
+    {
+      "source_columns": [
+        "suppkey"
+      ],
+      "target_column": "suppkey",
+      "mapping_type": "OneToOne",
+      "expression": "suppkey"
+    },
+    {
+      "source_columns": [
+        "linenumber"
+      ],
+      "target_column": "linenumber",
+      "mapping_type": "OneToOne",
+      "expression": "linenumber"
+    },
+    {
+      "source_columns": [
+        "quantity"
+      ],
+      "target_column": "quantity",
+      "mapping_type": "OneToOne",
+      "expression": "quantity"
+    },
+    {
+      "source_columns": [
+        "extendedprice"
+      ],
+      "target_column": "extendedprice",
+      "mapping_type": "OneToOne",
+      "expression": "extendedprice"
+    },
+    {
+      "source_columns": [
+        "discount"
+      ],
+      "target_column": "discount",
+      "mapping_type": "OneToOne",
+      "expression": "discount"
+    },
+    {
+      "source_columns": [
+        "tax"
+      ],
+      "target_column": "tax",
+      "mapping_type": "OneToOne",
+      "expression": "tax"
+    },
+    {
+      "source_columns": [
+        "returnflag"
+      ],
+      "target_column": "returnflag",
+      "mapping_type": "OneToOne",
+      "expression": "returnflag"
+    },
+    {
+      "source_columns": [
+        "linestatus"
+      ],
+      "target_column": "linestatus",
+      "mapping_type": "OneToOne",
+      "expression": "linestatus"
+    },
+    {
+      "source_columns": [
+        "shipdate"
+      ],
+      "target_column": "shipdate",
+      "mapping_type": "OneToOne",
+      "expression": "shipdate"
+    },
+    {
+      "source_columns": [
+        "commitdate"
+      ],
+      "target_column": "commitdate",
+      "mapping_type": "OneToOne",
+      "expression": "commitdate"
+    },
+    {
+      "source_columns": [
+        "receiptdate"
+      ],
+      "target_column": "receiptdate",
+      "mapping_type": "OneToOne",
+      "expression": "receiptdate"
+    },
+    {
+      "source_columns": [
+        "shipinstruct"
+      ],
+      "target_column": "shipinstruct",
+      "mapping_type": "OneToOne",
+      "expression": "shipinstruct"
+    },
+    {
+      "source_columns": [
+        "shipmode"
+      ],
+      "target_column": "shipmode",
+      "mapping_type": "OneToOne",
+      "expression": "shipmode"
+    },
+    {
+      "source_columns": [
+        "comment"
+      ],
+      "target_column": "comment",
+      "mapping_type": "OneToOne",
+      "expression": "comment"
+    },
+    {
+      "source_columns": [
+        "line_id"
+      ],
+      "target_column": "line_id",
+      "mapping_type": "OneToOne",
+      "expression": "line_id"
+    }
+  ]
+}

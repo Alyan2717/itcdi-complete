@@ -1,0 +1,15 @@
+{
+  "scenario": "derived",
+  "description": "Source has quantity and extendedprice; target column net_price is their product.",
+  "expected_mappings": [
+    {
+      "source_columns": [
+        "quantity",
+        "extendedprice"
+      ],
+      "target_column": "net_price",
+      "mapping_type": "Derived",
+      "expression": "quantity * extendedprice"
+    }
+  ]
+}

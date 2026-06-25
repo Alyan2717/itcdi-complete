@@ -1,0 +1,2 @@
+line_id,order_id,part_id,supplier_id,quantity,unit_price,discount_rate,tax_rate,net_price,return_flag,ship_date,ship_mode,comments
+L1,O1,P1,S1,5.0,100.0,0.05,0.04,95.0,N,1994-01-01,RAIL,test comment

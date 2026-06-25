@@ -1,0 +1,12 @@
+{
+  "scenario": "type_narrow",
+  "description": "Source narrows 'linenumber' from bigint to int (data-loss risk).",
+  "expected_drift": {
+    "drift_type": "TypeNarrowing",
+    "severity": "HIGH",
+    "response": "re-match",
+    "affected_columns": [
+      "linenumber"
+    ]
+  }
+}

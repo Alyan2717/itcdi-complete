@@ -1,0 +1,22 @@
+{
+  "scenario": "column_add",
+  "description": "Source adds a new column 'discount_pct' not present in the target baseline.",
+  "expected_drift": {
+    "drift_type": "ColumnAdd",
+    "severity": "LOW",
+    "response": "reuse",
+    "affected_columns": [
+      "discount_pct"
+    ]
+  },
+  "expected_mappings": [
+    {
+      "source_columns": [
+        "discount_pct"
+      ],
+      "target_column": "discount_pct",
+      "mapping_type": "OneToOne",
+      "expression": "discount_pct"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "scenario": "concatenation",
+  "description": "Source has first_name and last_name; target column full_name is their concatenation.",
+  "expected_mappings": [
+    {
+      "source_columns": [
+        "first_name",
+        "last_name"
+      ],
+      "target_column": "full_name",
+      "mapping_type": "Concatenation",
+      "expression": "first_name + \" \" + last_name"
+    }
+  ]
+}
