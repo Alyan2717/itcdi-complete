@@ -91,13 +91,13 @@ dissertation's evaluation chapter.
 
 | Experiment | Description | Script |
 |---|---|---|
-| 1 | Matching quality vs. five baselines (Valentine + TPC-H) | `EXP1_SCRIPT` |
-| 2 | Mapping classification and expression accuracy | `EXP2_SCRIPT` |
-| 3 | Schema drift detection and target protection | `EXP3_SCRIPT` |
-| 4 | Mapping reuse and incremental savings | `EXP4_SCRIPT` |
-| 5 | Cross-source conflict detection and resolution | `EXP5_SCRIPT` |
-| 6 | Design justification by ablation | `EXP6_SCRIPT` |
-| 7 | Efficiency at scale | `EXP7_SCRIPT` |
+| 1 | Matching quality vs. five baselines (Valentine + TPC-H) | `experiment_matching_v2` |
+| 2 | Mapping classification and expression accuracy | `experiment_mapping_v2` |
+| 3 | Schema drift detection and target protection | `drift_two_batch, experiment_drift_extension` |
+| 4 | Mapping reuse and incremental savings | `drift_two_batch` |
+| 5 | Cross-source conflict detection and resolution | `conflict_runner` |
+| 6 | Design justification by ablation | `experiment_ablation` |
+| 7 | Efficiency at scale | `experiment_scale` |
 
 The deterministic experiments were each run five times; the standard deviation was
 zero on every rule-engine run.
